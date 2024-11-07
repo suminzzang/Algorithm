@@ -20,7 +20,7 @@ void binarySearch(vector<int> input, int numToFind)
     int start = 0;
     int end = input.size() - 1; // 끝 인덱스는 size() - 1
 
-    while (start <= end) // <=로 변경
+    while (start <= end) // 
     {
         int mid = (start + end) / 2;
         if (input[mid] == numToFind)
